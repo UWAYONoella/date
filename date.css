@@ -1,0 +1,39 @@
+.tm{
+    border: 1px solid black;
+    height: 50px;
+   display: flex;
+   flex-direction: row;
+   grid-gap: 5px;
+   padding-left: 50px;
+   width: 196px;
+   
+}
+/* .hour{
+    color: black;
+   
+} */
+.tim{
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: row;
+    grid-gap: 1px;
+    margin-top: -15px;
+}
+.da{
+    height: 50px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: rgb(53, 135, 135);  
+}
+.mont{
+    height: 50px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: rgb(53, 135, 135);  
+}
+.year{
+    height: 50px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: rgb(53, 135, 135);  
+}
