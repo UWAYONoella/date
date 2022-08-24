@@ -66,11 +66,12 @@ let dt=document.getElementsByClassName("dt")[0];
   function time(){
     setTimeout(()=>{
       time();
-      hour.innerHTML=`${period.getHours()} :`;
-      min.innerHTML=`${period.getMinutes()}  :`;
-      sec.innerHTML=period.getSeconds();
+      hour.innerHTML=`${new Date().getHours()} :`;
+      min.innerHTML=`${new Date().getMinutes()}  :`;
+      sec.innerHTML=`${new Date().getSeconds()}`;
       // tm.textContent=`${period.getHours()}:${period.getMinutes()}:${period.getSeconds()}`;
     },1000);
+    
  
 }
 time();
