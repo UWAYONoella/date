@@ -14,7 +14,7 @@
 } */
 .tim{
     display: flex;
-    /* background-color: aqua; */
+   
     flex-direction: row;
     grid-gap: 1px;
     margin-top: -15px;
@@ -26,7 +26,7 @@
     background-color: rgb(53, 135, 135);  
 }
 .mont{
-    height: 50px;
+    height: 60px;
     width: 80px;
     border: 1px solid black;
     background-color: rgb(53, 135, 135);  
